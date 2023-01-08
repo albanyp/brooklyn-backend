@@ -3,5 +3,7 @@ export class SignUpDto {
   password: string
   firstName: string
   lastName: string
+  nickname?: string
   birthday?: string
+  logoUrl?: string
 }
